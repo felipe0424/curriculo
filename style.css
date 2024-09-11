@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.coluna {
+  display: grid;
+  grid-template-columns: 40% auto;
+  width: 900px;
+  justify-content: center;
+  border: solid 1px red;
+  margin: auto;
+}
+
+.color {
+  background-color: #155D4F;
+  padding: 20px 32px 20px 32px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  object-fit:cover;
+  object-position: 10% 20%;
+}
+
+.infos {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.infos h1 {
+  color: #155D4F;
+  margin-bottom: 32px;
+  font-size: 36px;
+}
+
+.infos p {
+   margin-left: 20px;
+   margin-bottom: 28px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+
+.contact li {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  /* padding-left: 16px; */
+  list-style:circle;
+  gap: 8px;
+}
+
+.idioma li {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  list-style:circle;
+  gap: 8px;
+}
+
+.point ul {
+  padding-left: 16px;
+}
+
+li img {
+  width: 25px;
+  height: 25px;
+}
+
+.nome {
+  border-top: solid 2px black;
+}
+
+.line {
+  border-top: solid 2px black;
+}
+
+.line2 {
+  border-top: solid 2px #ffffff;
+}
+
+
+ul {
+  margin-bottom: 32px;
+}
