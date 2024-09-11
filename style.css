@@ -14,7 +14,7 @@ body {
   grid-template-columns: 40% auto;
   width: 900px;
   justify-content: center;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   margin: auto;
 }
 
